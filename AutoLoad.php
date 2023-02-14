@@ -1,0 +1,1 @@
+<?phpinclude "vendor/autoload.php";include "configs.php";spl_autoload_register(function ($class){    $class_name = __DIR__.'/'.$class.'.php';    if (file_exists($class_name) && is_readable($class_name))    {        include_once $class_name;    }});

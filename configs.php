@@ -1,0 +1,1 @@
+<?phpconst DATABASE =[    'HOST' => 'localhost',    'DB' => 'api7learn',    'USER' => 'root',    'PASSWORD' => '',];

@@ -1,0 +1,22 @@
+{
+    "name": "aziaremo/iran",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aziaremo\\Iran\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abu maziar",
+            "email": "maziardehghani1380@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.4",
+      "ext-pdo": "*",
+      "ext-json": "*"
+    }
+}

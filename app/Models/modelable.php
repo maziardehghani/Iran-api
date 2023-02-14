@@ -1,0 +1,1 @@
+<?phpnamespace app\Models;interface modelable{    public function get_all();    public function get_single($id);    public function add(array $data);}
